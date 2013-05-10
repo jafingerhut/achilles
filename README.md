@@ -1,11 +1,23 @@
 # achilles
 
-A Clojure library designed to ... well, that part is up to you.  A
-little bit of Java and Clojure code for testing performance with
+A little bit of Java and Clojure code for testing performance with
 multiple threads on the JVM.  The kinds of computations run in
 parallel are mostly very simple microbenchmarks, intended to help
 understand what is going on without getting lost in complex benchmark
 code.
+
+The name "Achilles" occurred to me for two possible reasons: something
+from Greek mythology that had to do with speed -- in particular Zeno's
+paradox regarding Achilles and the tortoise.
+
+Depending upon the results found, I am a bit worried I will find
+simple workloads where achieving parallel speedup near the number of
+physical CPU cores used, in a single JVM process is difficult, perhaps
+being an "Achilles' heel" for JVM performance.  This could be so even
+for what appear to be embarrassingly parallel computations problems.
+If so, my current guess is that such low speedups may be due to the
+garbage collection implementations commonly available in JVMs.
+
 
 ## Usage
 
