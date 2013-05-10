@@ -83,7 +83,7 @@ public class ParallelTest {
 	long maxTime = 0;
 	long totalTime = 0;
 	long n = 0;
-	System.out.println("Elapsed times in msec of all trials (warmup not included in final stats below):");
+	System.out.println("\nElapsed times in msec of all trials (warmup not included in final stats below):");
 	for (int trial = 0; trial < (NWARMUPS + NTRIALS); trial++) {
 	    System.out.format("Trial %2d: %.3f%s\n",
 			      trial,

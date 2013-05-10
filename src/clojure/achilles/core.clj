@@ -92,6 +92,8 @@
                    (catch ClassNotFoundException e
                      (printf "No class '%s' found.\n\n" tname)
                      (usage prog-name 1)))
-          job-size-per-thread (quot job-size num-threads)]
+          ;;job-size-per-thread (quot job-size num-threads)
+          job-size-per-thread job-size
+          ]
       (achilles.ParallelTest/doTest tname constr num-threads
                                     job-size-per-thread))))

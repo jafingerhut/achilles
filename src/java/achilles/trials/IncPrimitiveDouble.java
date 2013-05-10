@@ -14,6 +14,6 @@ public class IncPrimitiveDouble implements Runnable {
 	for (long i = 0L; i < n; i++) {
 	    result = result + 1.0;
 	}
-	System.out.println(result);
+	System.out.print(" " + result);
     }
 }
