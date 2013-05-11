@@ -1,4 +1,5 @@
 (ns achilles.core
+  (:gen-class)
   (:require [clojure.string :as str]))
 
 
