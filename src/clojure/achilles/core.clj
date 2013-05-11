@@ -43,7 +43,7 @@
    [ "IncNewBoxedDouble" "inbd" ]
    [ "IncNewBoxedDouble_PrngUpdate2PrimitiveInt" "inbd-pu2pi" ]
    [ "IncNewBoxedDouble_PrngUpdate4PrimitiveInt" "inbd-pu4pi" ]
-   [ "IncNewBoxedDouble_PrngUpdate8PrimitiveIn" "inbd-pu8pi" ]
+   [ "IncNewBoxedDouble_PrngUpdate8PrimitiveInt" "inbd-pu8pi" ]
    [ "IncNewBoxedDouble_PrngUpdate16PrimitiveInt" "inbd-pu16pi" ]
   ])
 
